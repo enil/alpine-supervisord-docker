@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.4
 MAINTAINER Emil Nilsson <eonilsson@gmail.com>
 
 ENV PYTHON_VERSION=2.7.10-r1
