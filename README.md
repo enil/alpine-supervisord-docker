@@ -37,6 +37,22 @@ This further simplifies the `Dockerfile`:
 ```Dockerfile
 FROM enil/alpine-supervisord
 ```
+## Changelog
+
+### `0.2`
+
+* Upgrade Alpine Linux to v3.4
+* Upgrade Python to v2.7.12
+* Upgrade pip to v.8.1.2
+* Upgrade Supervisor to v3.3.0
+
+### `0.1.1`
+
+* Change Dockerfile to 1.9 syntax to work on Dockerhub
+
+### `0.1`
+
+* Initial release
 
 [supervisor]:        http://supervisord.org/
 [supervisor-run]:    http://supervisord.org/running.html
